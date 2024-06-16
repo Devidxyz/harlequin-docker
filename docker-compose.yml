@@ -1,0 +1,6 @@
+services:
+  harlequin:
+    container_name: harlequin
+    build: .
+    restart: unless-stopped
+    network_mode: host
